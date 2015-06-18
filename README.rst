@@ -89,6 +89,8 @@ Create the base box
     mkdir -p ~/dev/vagrant_hacking/ && cd ~/dev/vagrant_hacking/
     git clone https://github.com/bechtoldt/vagrant-devenv.git
     cd vagrant-devenv/
+    git submodule init && git submodule update
+
 
     # Run the following to use some sane default:
     ./build-boxes centos7
